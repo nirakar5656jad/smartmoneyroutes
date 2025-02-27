@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Property Routes</title>
-    <link rel="icon" href="./tinywow_spr_75952904.png" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon"> <!-- Add your favicon here -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -35,9 +35,9 @@
             margin-bottom: 20px;
         }
         .banner {
-            width: auto; /* Ensures it doesn't stretch */
-            height: 140px; /* Sets a fixed height */
-            max-width: 100%; /* Ensures it doesn't overflow */
+            width: auto;
+            height: 140px;
+            max-width: 100%;
             margin-bottom: 20px;
         }
         .contact {
@@ -112,7 +112,7 @@
             height: 120px;
             border-radius: 50%;
             background-color: #bdc3c7;
-            background-image: url('./nirakar.png'); /* Placeholder for photo */
+            background-image: url('./nirakar.png');
             background-size: cover;
             background-position: center;
             margin: 0 auto 20px;
@@ -127,13 +127,35 @@
             font-size: 1.1em;
             line-height: 1.6;
         }
+        .social-links {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .social-links h2 {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .social-icon:hover {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 <body>
 <div class="container">
     <img src="./tinywow_spr_75952904.png" alt="Smart Property Routes" class="banner">
-    <h1>Smart Property Routes <br/> Your Trusted Partner in Property Investment & Home Buying</h1>
-
+    <h1>Smart Property Routes – Your Trusted Partner in Property Investment & Home Buying</h1>
     <p>Welcome to <strong>Smart Property Routes</strong>, where we turn property dreams into reality. Whether you're a first-home buyer or a seasoned investor, we help you navigate the real estate market with confidence and strategy.</p>
 
     <h2>Your Route to Financial Freedom</h2>
@@ -181,8 +203,7 @@
 
     <div class="meet-nirakar">
         <h3>Your Trusted Property Partner</h3>
-        <div class="photo">
-        </div>
+        <div class="photo"></div>
         <h3>Nirakar Puri</h3>
         <p>With a strong background as a property investor and a passion for helping others build wealth through real estate, I founded <strong>Smart Property Routes</strong> to simplify the buying process.</p>
     </div>
@@ -191,6 +212,21 @@
         <p>📞 Call: 0452 506 329</p>
         <p>📧 Email: <a href="mailto:nirakar.puri@smartmoneyroutes.com.au">nirakar.puri@smartmoneyroutes.com.au</a> | <a href="mailto:info@smartmoneyroutes.com.au">info@smartmoneyroutes.com.au</a></p>
         <p>📍 Serving clients across Australia</p>
+    </div>
+
+    <div class="social-links">
+        <h2>Follow Us</h2>
+        <div class="social-icons">
+            <a href="https://www.tiktok.com/@smartmoneyroutes" target="_blank">
+                <img src="./tik-tok.png" alt="TikTok" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/smartmoneyroutes/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://www.facebook.com/smartmoneyroutes" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" class="social-icon">
+            </a>
+        </div>
     </div>
 </div>
 </body>
